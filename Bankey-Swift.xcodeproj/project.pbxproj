@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C42560AE28B54B4D003775F2 /* LocalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42560AD28B54B4D003775F2 /* LocalState.swift */; };
 		C43EB6E628B0037B00C0E8F2 /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43EB6E528B0037B00C0E8F2 /* OnboardingContainerViewController.swift */; };
 		C43EB6E828B00D7600C0E8F2 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43EB6E728B00D7600C0E8F2 /* OnboardingViewController.swift */; };
 		C45E0B5F28AEAFB3006087D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45E0B5E28AEAFB3006087D6 /* AppDelegate.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C42560AD28B54B4D003775F2 /* LocalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalState.swift; sourceTree = "<group>"; };
 		C43EB6E528B0037B00C0E8F2 /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
 		C43EB6E728B00D7600C0E8F2 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		C45E0B5B28AEAFB3006087D6 /* Bankey-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bankey-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C42560AC28B54B37003775F2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C42560AD28B54B4D003775F2 /* LocalState.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		C43EB6E428B0036000C0E8F2 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +77,7 @@
 		C45E0B5D28AEAFB3006087D6 /* Bankey-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				C42560AC28B54B37003775F2 /* Utils */,
 				C45E0B5E28AEAFB3006087D6 /* AppDelegate.swift */,
 				C43EB6E428B0036000C0E8F2 /* Onboarding */,
 				C45E0B7C28AEB341006087D6 /* Login */,
@@ -165,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C45E0B7E28AEB383006087D6 /* LoginView.swift in Sources */,
+				C42560AE28B54B4D003775F2 /* LocalState.swift in Sources */,
 				C45E0B6328AEAFB3006087D6 /* LoginViewController.swift in Sources */,
 				C43EB6E828B00D7600C0E8F2 /* OnboardingViewController.swift in Sources */,
 				C45E0B5F28AEAFB3006087D6 /* AppDelegate.swift in Sources */,
