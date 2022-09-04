@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+let appColor: UIColor = .systemTeal
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow()
         loginViewController.delegate = self
         onboardingContainerViewController.delegate = self
-        window?.rootViewController = loginViewController
+        window?.rootViewController = MainViewController()
         window?.makeKeyAndVisible()
         return true
     }
