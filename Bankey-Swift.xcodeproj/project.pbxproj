@@ -57,7 +57,6 @@
 		C43EB6E428B0036000C0E8F2 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				C45E0B7C28AEB341006087D6 /* Login */,
 				C43EB6E528B0037B00C0E8F2 /* OnboardingContainerViewController.swift */,
 				C43EB6E728B00D7600C0E8F2 /* OnboardingViewController.swift */,
 			);
@@ -113,6 +112,7 @@
 		C4F6C73628C4AC660002D4E4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C45E0B7C28AEB341006087D6 /* Login */,
 				C43EB6E428B0036000C0E8F2 /* Onboarding */,
 				C4F6C73428C4A8F40002D4E4 /* MainViewController.swift */,
 			);
