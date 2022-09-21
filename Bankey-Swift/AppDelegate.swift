@@ -17,7 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow()
         loginViewController.delegate = self
         onboardingContainerViewController.delegate = self
-        window?.rootViewController = MainViewController()
+        let vc = mainViewController()
+        vc.setStatusBar()
+        UINavigationBar.appearance().isTranslucent = false
+        UINavigationBar.appearance().backgroundColor = appColor
+        UINavigationBar.appearance().barStyle = .black
+        window?.rootViewController = vc
         window?.makeKeyAndVisible()
         return true
     }

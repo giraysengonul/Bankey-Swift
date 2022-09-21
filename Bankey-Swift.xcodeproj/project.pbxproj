@@ -15,9 +15,26 @@
 		C45E0B6828AEAFB4006087D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45E0B6728AEAFB4006087D6 /* Assets.xcassets */; };
 		C45E0B6B28AEAFB4006087D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45E0B6928AEAFB4006087D6 /* LaunchScreen.storyboard */; };
 		C45E0B7E28AEB383006087D6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45E0B7D28AEB383006087D6 /* LoginView.swift */; };
+		C488D1A528DBABA0000739ED /* AccountSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C488D1A428DBABA0000739ED /* AccountSummaryCell.swift */; };
+		C4CE623828DB73530036402B /* AccountSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE623728DB73530036402B /* AccountSummaryViewController.swift */; };
+		C4CE623A28DB7D4B0036402B /* AccountSummaryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE623928DB7D4B0036402B /* AccountSummaryHeaderView.swift */; };
+		C4CE623C28DB7D840036402B /* AccountSummaryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4CE623B28DB7D840036402B /* AccountSummaryHeaderView.xib */; };
+		C4D879EC28DDE10700D864C6 /* CurrenyFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D879EB28DDE10700D864C6 /* CurrenyFormatterTests.swift */; };
+		C4E103C528DCE4BF002DFD0F /* DecimalUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E103C428DCE4BE002DFD0F /* DecimalUtils.swift */; };
+		C4E103C728DCE536002DFD0F /* CurencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E103C628DCE536002DFD0F /* CurencyFormatter.swift */; };
 		C4F6C73328C4A7030002D4E4 /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F6C73228C4A7030002D4E4 /* UIViewController+Utils.swift */; };
-		C4F6C73528C4A8F40002D4E4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F6C73428C4A8F40002D4E4 /* MainViewController.swift */; };
+		C4F6C73528C4A8F40002D4E4 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F6C73428C4A8F40002D4E4 /* mainViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4D879E628DDE00F00D864C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C45E0B5328AEAFB3006087D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C45E0B5A28AEAFB3006087D6;
+			remoteInfo = "Bankey-Swift";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C42560AD28B54B4D003775F2 /* LocalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalState.swift; sourceTree = "<group>"; };
@@ -30,12 +47,27 @@
 		C45E0B6A28AEAFB4006087D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C45E0B6C28AEAFB4006087D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C45E0B7D28AEB383006087D6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C488D1A428DBABA0000739ED /* AccountSummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryCell.swift; sourceTree = "<group>"; };
+		C4CE623728DB73530036402B /* AccountSummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryViewController.swift; sourceTree = "<group>"; };
+		C4CE623928DB7D4B0036402B /* AccountSummaryHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryHeaderView.swift; sourceTree = "<group>"; };
+		C4CE623B28DB7D840036402B /* AccountSummaryHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountSummaryHeaderView.xib; sourceTree = "<group>"; };
+		C4D879E228DDE00F00D864C6 /* Bankey-Swift-Unit-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bankey-Swift-Unit-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4D879EB28DDE10700D864C6 /* CurrenyFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenyFormatterTests.swift; sourceTree = "<group>"; };
+		C4E103C428DCE4BE002DFD0F /* DecimalUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalUtils.swift; sourceTree = "<group>"; };
+		C4E103C628DCE536002DFD0F /* CurencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurencyFormatter.swift; sourceTree = "<group>"; };
 		C4F6C73228C4A7030002D4E4 /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
-		C4F6C73428C4A8F40002D4E4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C4F6C73428C4A8F40002D4E4 /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C45E0B5828AEAFB3006087D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4D879DF28DDE00F00D864C6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -50,6 +82,8 @@
 			children = (
 				C42560AD28B54B4D003775F2 /* LocalState.swift */,
 				C4F6C73228C4A7030002D4E4 /* UIViewController+Utils.swift */,
+				C4E103C428DCE4BE002DFD0F /* DecimalUtils.swift */,
+				C4E103C628DCE536002DFD0F /* CurencyFormatter.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -67,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				C45E0B5D28AEAFB3006087D6 /* Bankey-Swift */,
+				C4D879E328DDE00F00D864C6 /* Bankey-Swift-Unit-Tests */,
 				C45E0B5C28AEAFB3006087D6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				C45E0B5B28AEAFB3006087D6 /* Bankey-Swift.app */,
+				C4D879E228DDE00F00D864C6 /* Bankey-Swift-Unit-Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,12 +145,48 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		C488D1A228DBAB61000739ED /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE623928DB7D4B0036402B /* AccountSummaryHeaderView.swift */,
+				C4CE623B28DB7D840036402B /* AccountSummaryHeaderView.xib */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		C488D1A328DBAB77000739ED /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C488D1A428DBABA0000739ED /* AccountSummaryCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C4CE623628DB73260036402B /* AccountSummary */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE623728DB73530036402B /* AccountSummaryViewController.swift */,
+				C488D1A328DBAB77000739ED /* Cells */,
+				C488D1A228DBAB61000739ED /* Header */,
+			);
+			path = AccountSummary;
+			sourceTree = "<group>";
+		};
+		C4D879E328DDE00F00D864C6 /* Bankey-Swift-Unit-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C4D879EB28DDE10700D864C6 /* CurrenyFormatterTests.swift */,
+			);
+			path = "Bankey-Swift-Unit-Tests";
+			sourceTree = "<group>";
+		};
 		C4F6C73628C4AC660002D4E4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				C45E0B7C28AEB341006087D6 /* Login */,
 				C43EB6E428B0036000C0E8F2 /* Onboarding */,
-				C4F6C73428C4A8F40002D4E4 /* MainViewController.swift */,
+				C4CE623628DB73260036402B /* AccountSummary */,
+				C4F6C73428C4A8F40002D4E4 /* mainViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -139,6 +211,24 @@
 			productReference = C45E0B5B28AEAFB3006087D6 /* Bankey-Swift.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C4D879E128DDE00F00D864C6 /* Bankey-Swift-Unit-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4D879EA28DDE00F00D864C6 /* Build configuration list for PBXNativeTarget "Bankey-Swift-Unit-Tests" */;
+			buildPhases = (
+				C4D879DE28DDE00F00D864C6 /* Sources */,
+				C4D879DF28DDE00F00D864C6 /* Frameworks */,
+				C4D879E028DDE00F00D864C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4D879E728DDE00F00D864C6 /* PBXTargetDependency */,
+			);
+			name = "Bankey-Swift-Unit-Tests";
+			productName = "Bankey-Swift-Unit-Tests";
+			productReference = C4D879E228DDE00F00D864C6 /* Bankey-Swift-Unit-Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -151,6 +241,11 @@
 				TargetAttributes = {
 					C45E0B5A28AEAFB3006087D6 = {
 						CreatedOnToolsVersion = 13.4.1;
+					};
+					C4D879E128DDE00F00D864C6 = {
+						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
+						TestTargetID = C45E0B5A28AEAFB3006087D6;
 					};
 				};
 			};
@@ -168,6 +263,7 @@
 			projectRoot = "";
 			targets = (
 				C45E0B5A28AEAFB3006087D6 /* Bankey-Swift */,
+				C4D879E128DDE00F00D864C6 /* Bankey-Swift-Unit-Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -177,8 +273,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4CE623C28DB7D840036402B /* AccountSummaryHeaderView.xib in Resources */,
 				C45E0B6B28AEAFB4006087D6 /* LaunchScreen.storyboard in Resources */,
 				C45E0B6828AEAFB4006087D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4D879E028DDE00F00D864C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,18 +293,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4CE623A28DB7D4B0036402B /* AccountSummaryHeaderView.swift in Sources */,
+				C488D1A528DBABA0000739ED /* AccountSummaryCell.swift in Sources */,
 				C45E0B7E28AEB383006087D6 /* LoginView.swift in Sources */,
+				C4E103C728DCE536002DFD0F /* CurencyFormatter.swift in Sources */,
 				C42560AE28B54B4D003775F2 /* LocalState.swift in Sources */,
 				C4F6C73328C4A7030002D4E4 /* UIViewController+Utils.swift in Sources */,
 				C45E0B6328AEAFB3006087D6 /* LoginViewController.swift in Sources */,
 				C43EB6E828B00D7600C0E8F2 /* OnboardingViewController.swift in Sources */,
 				C45E0B5F28AEAFB3006087D6 /* AppDelegate.swift in Sources */,
 				C43EB6E628B0037B00C0E8F2 /* OnboardingContainerViewController.swift in Sources */,
-				C4F6C73528C4A8F40002D4E4 /* MainViewController.swift in Sources */,
+				C4E103C528DCE4BF002DFD0F /* DecimalUtils.swift in Sources */,
+				C4F6C73528C4A8F40002D4E4 /* mainViewController.swift in Sources */,
+				C4CE623828DB73530036402B /* AccountSummaryViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4D879DE28DDE00F00D864C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D879EC28DDE10700D864C6 /* CurrenyFormatterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4D879E728DDE00F00D864C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C45E0B5A28AEAFB3006087D6 /* Bankey-Swift */;
+			targetProxy = C4D879E628DDE00F00D864C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C45E0B6928AEAFB4006087D6 /* LaunchScreen.storyboard */ = {
@@ -382,6 +507,55 @@
 			};
 			name = Release;
 		};
+		C4D879E828DDE00F00D864C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5XZHHC4623;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hakkicansengonul.Bankey-Swift-Unit-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bankey-Swift.app/Bankey-Swift";
+			};
+			name = Debug;
+		};
+		C4D879E928DDE00F00D864C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5XZHHC4623;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hakkicansengonul.Bankey-Swift-Unit-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bankey-Swift.app/Bankey-Swift";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -399,6 +573,15 @@
 			buildConfigurations = (
 				C45E0B7028AEAFB4006087D6 /* Debug */,
 				C45E0B7128AEAFB4006087D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4D879EA28DDE00F00D864C6 /* Build configuration list for PBXNativeTarget "Bankey-Swift-Unit-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4D879E828DDE00F00D864C6 /* Debug */,
+				C4D879E928DDE00F00D864C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
