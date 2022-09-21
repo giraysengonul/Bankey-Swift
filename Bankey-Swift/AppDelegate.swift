@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow()
         loginViewController.delegate = self
         onboardingContainerViewController.delegate = self
-        window?.rootViewController = MainViewController()
+        window?.rootViewController = UINavigationController(rootViewController: AccountSummaryViewController())
         window?.makeKeyAndVisible()
         return true
     }
