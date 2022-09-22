@@ -11,6 +11,7 @@ import UIKit
 class AccountSummaryViewController: UIViewController {
     // MARK: - Properties
     private var tableView = UITableView()
+    var accounts: [AccountSummaryCell.ViewModel] = []
     let array = [
         "a","b","c","d"
     ]
@@ -19,6 +20,7 @@ class AccountSummaryViewController: UIViewController {
         super.viewDidLoad()
         style()
         layout()
+        fetchData()
     }
 }
 // MARK: - Helpers
@@ -55,11 +57,26 @@ extension AccountSummaryViewController: UITableViewDelegate, UITableViewDataSour
         return 1
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return array.count
+        return accounts.count
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: AccountSummaryCell.reuseID, for: indexPath) as! AccountSummaryCell
-        
+        let account = accounts[indexPath.row]
+        cell.configure(with: account)
         return cell
+    }
+}
+extension AccountSummaryViewController {
+    private func fetchData() {
+        let savings = AccountSummaryCell.ViewModel(accountType: .Banking,
+                                                   accountName: "Basic Savings")
+        let visa = AccountSummaryCell.ViewModel(accountType: .CreditCard,
+                                                accountName: "Visa Avion Card")
+        let investment = AccountSummaryCell.ViewModel(accountType: .Investment,
+                                                      accountName: "Tax-Free Saver")
+        
+        accounts.append(savings)
+        accounts.append(visa)
+        accounts.append(investment)
     }
 }
