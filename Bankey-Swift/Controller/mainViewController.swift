@@ -6,7 +6,7 @@
 //
 
 import UIKit
-class MainViewController: UITabBarController{
+class mainViewController: UITabBarController{
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,7 +15,7 @@ class MainViewController: UITabBarController{
     }
 }
 // MARK: - Helpers
-extension MainViewController{
+extension mainViewController{
     private func setupViews(){
         let summaryVC = AccountSummaryViewController()
         let moneyVC = MoveMoneyViewController()

@@ -7,7 +7,6 @@
 
 import Foundation
 import UIKit
-
 class AccountSummaryViewController: UIViewController {
     // MARK: - Properties
     private var tableView = UITableView()
@@ -27,6 +26,7 @@ class AccountSummaryViewController: UIViewController {
 extension AccountSummaryViewController{
     private func style(){
         //tableView Style
+        tableView.backgroundColor = appColor
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(AccountSummaryCell.self, forCellReuseIdentifier: AccountSummaryCell.reuseID)
