@@ -17,7 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow()
         loginViewController.delegate = self
         onboardingContainerViewController.delegate = self
-        let vc = mainViewController()
+        registerForNotifications()
+        let vc = MainViewController()
         vc.setStatusBar()
         UINavigationBar.appearance().isTranslucent = false
         UINavigationBar.appearance().backgroundColor = appColor
@@ -25,6 +26,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = vc
         window?.makeKeyAndVisible()
         return true
+    }
+    private func registerForNotifications(){
+        NotificationCenter.default.addObserver(self, selector: #selector(didLogout), name: .logout, object: nil)
+    }
+    @objc func didLogout(){
+        setRootViewController(loginViewController)
     }
     
 }
