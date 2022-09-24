@@ -59,6 +59,7 @@ extension AccountSummaryCell{
         //nameLabel Setup
         nameLabel.text = "Account Name"
         nameLabel.font = UIFont.preferredFont(forTextStyle: .body)
+        nameLabel.adjustsFontSizeToFitWidth = true
         nameLabel.translatesAutoresizingMaskIntoConstraints = false
         contentView.addSubview(nameLabel)
         //balanceStacView Setup
@@ -70,6 +71,7 @@ extension AccountSummaryCell{
         balanceLabel.text = "Some balance"
         balanceLabel.textAlignment = .right
         balanceLabel.font = UIFont.preferredFont(forTextStyle: .body)
+        balanceLabel.adjustsFontSizeToFitWidth = true
         balanceLabel.translatesAutoresizingMaskIntoConstraints = false
         balanceStacView.addArrangedSubview(balanceLabel)
         //balancaAmountLabel Setup
