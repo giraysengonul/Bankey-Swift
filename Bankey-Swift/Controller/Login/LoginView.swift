@@ -48,6 +48,7 @@ extension LoginView{
         dividerView.backgroundColor = .secondarySystemFill
         stackView.addArrangedSubview(dividerView)
         //passwordTextField style
+        passwordTextField.enablePasswordToggle()
         passwordTextField.translatesAutoresizingMaskIntoConstraints = false
         stackView.addArrangedSubview(passwordTextField)
         passwordTextField.placeholder = "Password"
